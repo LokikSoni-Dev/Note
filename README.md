@@ -1,4 +1,4 @@
-# Quickly capture what's on your mind using Note Application.
+# Quickly capture what's on your mind using the Note Application.
 - User Interface built with [Jetpack Compose.](https://developer.android.com/jetpack/compose)
 - A single-activity architecture, using [Navigation Compose.](https://developer.android.com/jetpack/compose/navigation)
 - A **presentation layer** that contains a Compose screen (View) and a **ViewModel** per screen (or feature).
