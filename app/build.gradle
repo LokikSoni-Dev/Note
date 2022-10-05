@@ -49,25 +49,22 @@ android {
 
 dependencies {
 
-    implementation libs.core
-
-    // Compose
-    implementation libs.material
-    implementation libs.material_extended
+    // Jetpack Compose
+    implementation libs.activity_compose
     implementation libs.compose_ui
-    implementation libs.compose_foundation
     debugImplementation libs.compose_ui_tool
     implementation libs.compose_ui_tool_prew
+    implementation libs.compose_foundation
+    implementation libs.material
+    implementation libs.material_extended
     implementation libs.viewmodel_compose
-    implementation libs.lifecycle_runtime
-    implementation libs.activity_compose
-
-    // Hilt
-    implementation libs.hilt
-    kapt libs.dagger_hilt_compiler
-    kapt libs.hilt_compiler
-    implementation libs.hilt_viewmodel
     implementation libs.navigation_compose
+
+    // Jetpack
+    implementation libs.core
+    implementation libs.lifecycle_runtime
+    implementation libs.hilt
+    kapt libs.hilt_compiler
 
     // Room
     implementation libs.room_runtime
